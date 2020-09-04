@@ -1,0 +1,12 @@
+Server Name,Policy Name,Schedule 
+192.168.1.10,Server001,Daily
+192.168.1.11,Server002,Daily
+192.168.1.12,Server003,Daily
+192.168.1.13,Server004,Daily
+192.168.1.14,Server005,Daily
+192.168.1.15,Server006,Wekly
+192.168.1.16,Server007,Daily
+192.168.1.17,Server008,Daily
+192.168.1.18,Server009,Monthly
+192.168.1.19,Server010,Daily
+192.168.1.20,Server011,Daily

@@ -1,0 +1,4 @@
+10.192.168.10,Daily,Server001
+10.192.168.12,Daily,server002
+10.192.168.11,Daily,server003
+10.192.168.14,Weekly,Server004
