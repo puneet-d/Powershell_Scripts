@@ -21,7 +21,7 @@ $Policy_Name = $getcsv."Policy Name"[$i]
 
 # Run command to start the backup
 $NBUpath = "/usr/openv/netbackup/bin"
-$NBUPath/bpbackup -p $Policy_Name -i -s $Schedule_Name -h $Server_Name"
+& "$NBUPath/bpbackup" -p $Policy_Name -i -s $Schedule_Name -h $Server_Name"
 }else{
  write-Output "$clients not found."
 }
