@@ -1,7 +1,10 @@
-# 
+# Read the host and port details from csv file 
 
 $checklist = import-csv checklist.csv
+
 $OutArray = @()
+
+# Perform telnet test
 Import-Csv checklist.csv |`
 ForEach-Object { 
     try {
@@ -27,4 +30,6 @@ ForEach-Object {
     $myobj = $null
     return
 }
+
+# Write the output with the test status to output csv file 
 $outarray | export-csv -path "result.csv" -NoTypeInformation
